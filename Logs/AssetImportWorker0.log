@@ -15,7 +15,7 @@ C:/Users/Lucas/Documents/GitHub/UntitledWeebDungeonCrawlerGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57512
+59683
 Successfully changed project path to: C:/Users/Lucas/Documents/GitHub/UntitledWeebDungeonCrawlerGame
 C:/Users/Lucas/Documents/GitHub/UntitledWeebDungeonCrawlerGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Lucas/Documents/GitHub/UntitledWeebDungeonCrawlerGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 67.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 78.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.7f1 (24e8595d6d43)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -63,92 +63,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005783 seconds.
+Registered in 0.007935 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 63.30 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 77.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.470 seconds
+- Completed reload, in  0.587 seconds
 Domain Reload Profiling:
-	ReloadAssembly (470ms)
-		BeginReloadAssembly (56ms)
+	ReloadAssembly (587ms)
+		BeginReloadAssembly (65ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (331ms)
-			LoadAssemblies (54ms)
+		EndReloadAssembly (426ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (74ms)
+			SetupTypeCache (90ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (201ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (264ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (63ms)
+				RefreshPlugins (78ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (99ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				ProcessInitializeOnLoadAttributes (132ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006523 seconds.
+Registered in 0.007044 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\UntitledWeebDungeonCrawlerGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\UntitledWeebDungeonCrawlerGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.787 seconds
+- Completed reload, in  0.896 seconds
 Domain Reload Profiling:
-	ReloadAssembly (787ms)
-		BeginReloadAssembly (84ms)
+	ReloadAssembly (896ms)
+		BeginReloadAssembly (100ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (617ms)
-			LoadAssemblies (68ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (700ms)
+			LoadAssemblies (91ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (191ms)
+			SetupTypeCache (221ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (296ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (325ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (193ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (211ms)
 				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3760 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (93.4 KB). Loaded Objects now: 4226.
+Unloading 27 unused Assets / (116.0 KB). Loaded Objects now: 4227.
 Memory consumption went from 134.1 MB to 134.0 MB.
-Total: 2.743600 ms (FindLiveObjects: 0.248500 ms CreateObjectMapping: 0.097100 ms MarkObjects: 2.293200 ms  DeleteObjects: 0.103900 ms)
+Total: 4.026300 ms (FindLiveObjects: 0.635000 ms CreateObjectMapping: 0.210000 ms MarkObjects: 3.023700 ms  DeleteObjects: 0.155700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,27 +162,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 552766.852616 seconds.
-  path: Assets/My Assets/UntitledWeebDungeon/Scripts/Dungeon/DungeonGenerator.cs
-  artifactKey: Guid(10e0b67213aa105439b84372976ff27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/My Assets/UntitledWeebDungeon/Scripts/Dungeon/DungeonGenerator.cs using Guid(10e0b67213aa105439b84372976ff27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c2b43bf6868ee95d7e1f1b53adf8a6') in 0.034259 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 358.230258 seconds.
-  path: Assets/My Assets/UntitledWeebDungeon/Prefabs/Player.prefab
-  artifactKey: Guid(d9234cd1a3136134a9a2d5377a5dee17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/My Assets/UntitledWeebDungeon/Prefabs/Player.prefab using Guid(d9234cd1a3136134a9a2d5377a5dee17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75efa5e6bb978b74f906b57d16dc2c5') in 0.080018 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.431923 seconds.
-  path: Assets/My Assets/UntitledWeebDungeon/Materials/floors.mat
-  artifactKey: Guid(868143f700624ba4ea0c2645fa49b952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/My Assets/UntitledWeebDungeon/Materials/floors.mat using Guid(868143f700624ba4ea0c2645fa49b952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed6c855104e158e886046e6f09d7941') in 0.024714 seconds 
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006511 seconds.
+Registered in 0.006349 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\UntitledWeebDungeonCrawlerGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\UntitledWeebDungeonCrawlerGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -191,40 +173,40 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.775 seconds
+- Completed reload, in  0.817 seconds
 Domain Reload Profiling:
-	ReloadAssembly (775ms)
-		BeginReloadAssembly (109ms)
+	ReloadAssembly (818ms)
+		BeginReloadAssembly (114ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (593ms)
-			LoadAssemblies (68ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (624ms)
+			LoadAssemblies (80ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (183ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (274ms)
+			SetupTypeCache (226ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (256ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (175ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (162ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3734 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (83.7 KB). Loaded Objects now: 4270.
-Memory consumption went from 136.7 MB to 136.6 MB.
-Total: 3.383900 ms (FindLiveObjects: 0.269100 ms CreateObjectMapping: 0.252600 ms MarkObjects: 2.763100 ms  DeleteObjects: 0.098300 ms)
+Unloading 20 unused Assets / (83.9 KB). Loaded Objects now: 4230.
+Memory consumption went from 132.0 MB to 131.9 MB.
+Total: 2.998200 ms (FindLiveObjects: 0.243900 ms CreateObjectMapping: 0.264300 ms MarkObjects: 2.413700 ms  DeleteObjects: 0.075600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -238,51 +220,173 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 559999.090407 seconds.
+  path: Assets/My Assets/UntitledWeebDungeon/Scripts/PlayerController.cs
+  artifactKey: Guid(6bec7f067cf23e84cadec1d50f8e46fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/UntitledWeebDungeon/Scripts/PlayerController.cs using Guid(6bec7f067cf23e84cadec1d50f8e46fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9b9d63d64fba48429721d069c395a5') in 0.034644 seconds 
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006321 seconds.
+Registered in 0.006939 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\UntitledWeebDungeonCrawlerGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\UntitledWeebDungeonCrawlerGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.783 seconds
+- Completed reload, in  0.806 seconds
 Domain Reload Profiling:
-	ReloadAssembly (784ms)
-		BeginReloadAssembly (106ms)
+	ReloadAssembly (807ms)
+		BeginReloadAssembly (130ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (600ms)
-			LoadAssemblies (67ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (589ms)
+			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (195ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (270ms)
+			SetupTypeCache (193ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (261ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (169ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.34 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3734 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (68.6 KB). Loaded Objects now: 4273.
-Memory consumption went from 136.6 MB to 136.6 MB.
-Total: 3.327200 ms (FindLiveObjects: 0.254400 ms CreateObjectMapping: 0.161000 ms MarkObjects: 2.834700 ms  DeleteObjects: 0.076500 ms)
+Unloading 20 unused Assets / (61.3 KB). Loaded Objects now: 4233.
+Memory consumption went from 131.9 MB to 131.9 MB.
+Total: 2.703400 ms (FindLiveObjects: 0.231000 ms CreateObjectMapping: 0.122100 ms MarkObjects: 2.282500 ms  DeleteObjects: 0.067200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009157 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\UntitledWeebDungeonCrawlerGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\UntitledWeebDungeonCrawlerGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.838 seconds
+Domain Reload Profiling:
+	ReloadAssembly (838ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (620ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (209ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (276ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3734 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (61.4 KB). Loaded Objects now: 4236.
+Memory consumption went from 132.0 MB to 131.9 MB.
+Total: 2.863800 ms (FindLiveObjects: 0.263700 ms CreateObjectMapping: 0.155500 ms MarkObjects: 2.363700 ms  DeleteObjects: 0.080200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005503 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\UntitledWeebDungeonCrawlerGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\UntitledWeebDungeonCrawlerGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.911 seconds
+Domain Reload Profiling:
+	ReloadAssembly (911ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (702ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (207ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (261ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (160ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3734 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (61.4 KB). Loaded Objects now: 4239.
+Memory consumption went from 132.0 MB to 131.9 MB.
+Total: 3.948500 ms (FindLiveObjects: 0.261300 ms CreateObjectMapping: 0.149400 ms MarkObjects: 3.449300 ms  DeleteObjects: 0.087600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -297,86 +401,142 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 140.103157 seconds.
-  path: Assets/Skyboxes for Horror Games/Skyboxes
-  artifactKey: Guid(0a8208ee4c0ef684dbd03b433fcadbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skyboxes for Horror Games/Skyboxes using Guid(0a8208ee4c0ef684dbd03b433fcadbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e64ca69698e88da4414ff2c055e1ba') in 0.013114 seconds 
+  Time since last request: 837.992361 seconds.
+  path: Assets/My Assets/UntitledWeebDungeon/Scripts/PlayerController.cs
+  artifactKey: Guid(6bec7f067cf23e84cadec1d50f8e46fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/UntitledWeebDungeon/Scripts/PlayerController.cs using Guid(6bec7f067cf23e84cadec1d50f8e46fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73f4306f9277f873e05c81f5e5d5115') in 0.007539 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.498824 seconds.
-  path: Assets/Skyboxes for Horror Games/Skyboxes/Texture
-  artifactKey: Guid(2f927a561d34718409ab810fc027f507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skyboxes for Horror Games/Skyboxes/Texture using Guid(2f927a561d34718409ab810fc027f507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '233d86aa160a3ede5cd6d044407a60fc') in 0.006924 seconds 
+  Time since last request: 20.224045 seconds.
+  path: Assets/My Assets/UntitledWeebDungeon/Scripts/PlayerController.cs
+  artifactKey: Guid(6bec7f067cf23e84cadec1d50f8e46fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/UntitledWeebDungeon/Scripts/PlayerController.cs using Guid(6bec7f067cf23e84cadec1d50f8e46fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e795464ef5699eb93ee9d2bda0b1fb2') in 0.014000 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.052259 seconds.
-  path: Assets/Skyboxes for Horror Games/Skyboxes/Texture/horror-1.png
-  artifactKey: Guid(da8fecdcc06fc5141a71133a421d4948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skyboxes for Horror Games/Skyboxes/Texture/horror-1.png using Guid(da8fecdcc06fc5141a71133a421d4948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e9ae7db586eaafb72b9561375a6b40') in 0.203019 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Skyboxes for Horror Games/Skyboxes/Texture/horror-11.png
-  artifactKey: Guid(05b742d6c4217ab4a990da05c4b51ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skyboxes for Horror Games/Skyboxes/Texture/horror-11.png using Guid(05b742d6c4217ab4a990da05c4b51ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed88edb87a2aa85f45460fa811b54b93') in 0.131197 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Skyboxes for Horror Games/Skyboxes/Texture/horror-9.png
-  artifactKey: Guid(353d2564cc77d4240b8f5d6a6040d19f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skyboxes for Horror Games/Skyboxes/Texture/horror-9.png using Guid(353d2564cc77d4240b8f5d6a6040d19f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6064ada9e36f80ba7606fcea033164') in 0.129650 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Skyboxes for Horror Games/Skyboxes/Texture/horror-5.png
-  artifactKey: Guid(354e4a8affb0d234eb75fe37b0d07628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skyboxes for Horror Games/Skyboxes/Texture/horror-5.png using Guid(354e4a8affb0d234eb75fe37b0d07628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a6021cf90a5246bebdd6515b937317') in 0.130195 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Skyboxes for Horror Games/Skyboxes/Texture/horror-4.png
-  artifactKey: Guid(ce87446a5f2fed647bf4770aa99719eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skyboxes for Horror Games/Skyboxes/Texture/horror-4.png using Guid(ce87446a5f2fed647bf4770aa99719eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89e5d857d55801b96de025b26d8137b') in 0.125797 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.855338 seconds.
-  path: Assets/Skyboxes for Horror Games/Skyboxes/Material
-  artifactKey: Guid(f0b3844ebdb5f614383c863a244aed4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skyboxes for Horror Games/Skyboxes/Material using Guid(f0b3844ebdb5f614383c863a244aed4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb19b5d809cf3c6efe96b8338aaa9f5') in 0.006719 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.055617 seconds.
-  path: Assets/Skyboxes for Horror Games/Skyboxes/Material/horror-1.mat
-  artifactKey: Guid(15716e51a6a206542b3d4ea471665412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skyboxes for Horror Games/Skyboxes/Material/horror-1.mat using Guid(15716e51a6a206542b3d4ea471665412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e202ce9c1be55c8079999e502c95b9') in 0.049945 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Skyboxes for Horror Games/Skyboxes/Material/horror-9.mat
-  artifactKey: Guid(0228654af8b098d45a349206fb46d6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skyboxes for Horror Games/Skyboxes/Material/horror-9.mat using Guid(0228654af8b098d45a349206fb46d6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c0ff7e9ef6127b2f16ef4056cf37a9') in 0.022010 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Skyboxes for Horror Games/Skyboxes/Material/horror-11.mat
-  artifactKey: Guid(4f5b33fec0697cb4a958773c7e199d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skyboxes for Horror Games/Skyboxes/Material/horror-11.mat using Guid(4f5b33fec0697cb4a958773c7e199d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726604dff7b744a080c0e742492ac695') in 0.021266 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Skyboxes for Horror Games/Skyboxes/Material/horror-10.mat
-  artifactKey: Guid(2b13e12c0d2004e4e8623b4b8c85ab9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skyboxes for Horror Games/Skyboxes/Material/horror-10.mat using Guid(2b13e12c0d2004e4e8623b4b8c85ab9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2b4218cc28f821ad401c5609362b5d') in 0.020856 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Skyboxes for Horror Games/Skyboxes/Material/horror-8.mat
-  artifactKey: Guid(809670339caa4cf42b4dd5b8cd655142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skyboxes for Horror Games/Skyboxes/Material/horror-8.mat using Guid(809670339caa4cf42b4dd5b8cd655142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e21310e62c65b0c4248f4cd942b1de') in 0.023589 seconds 
+  Time since last request: 95.294631 seconds.
+  path: Assets/My Assets/UntitledWeebDungeon/Scripts/PlayerController.cs
+  artifactKey: Guid(6bec7f067cf23e84cadec1d50f8e46fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/UntitledWeebDungeon/Scripts/PlayerController.cs using Guid(6bec7f067cf23e84cadec1d50f8e46fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c73ba1acf1e3f367b2e9e264c93fdb') in 0.001713 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005774 seconds.
+Registered in 0.005305 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\UntitledWeebDungeonCrawlerGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\UntitledWeebDungeonCrawlerGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.983 seconds
+Domain Reload Profiling:
+	ReloadAssembly (983ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (788ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (188ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (455ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (199ms)
+				ProcessInitializeOnLoadAttributes (210ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3734 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (76.4 KB). Loaded Objects now: 4242.
+Memory consumption went from 132.0 MB to 131.9 MB.
+Total: 2.941100 ms (FindLiveObjects: 0.266400 ms CreateObjectMapping: 0.208700 ms MarkObjects: 2.379100 ms  DeleteObjects: 0.086300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005285 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\UntitledWeebDungeonCrawlerGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\UntitledWeebDungeonCrawlerGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.799 seconds
+Domain Reload Profiling:
+	ReloadAssembly (800ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (614ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (180ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (289ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3734 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (61.4 KB). Loaded Objects now: 4245.
+Memory consumption went from 132.0 MB to 131.9 MB.
+Total: 3.114700 ms (FindLiveObjects: 0.286400 ms CreateObjectMapping: 0.213400 ms MarkObjects: 2.525100 ms  DeleteObjects: 0.089000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006334 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\UntitledWeebDungeonCrawlerGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\UntitledWeebDungeonCrawlerGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -385,98 +545,40 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.779 seconds
+- Completed reload, in  0.800 seconds
 Domain Reload Profiling:
-	ReloadAssembly (779ms)
-		BeginReloadAssembly (109ms)
+	ReloadAssembly (801ms)
+		BeginReloadAssembly (114ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (599ms)
-			LoadAssemblies (68ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (609ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (193ms)
+			SetupTypeCache (199ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (270ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (56ms)
-				ProcessInitializeOnLoadAttributes (174ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.99 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3734 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (83.8 KB). Loaded Objects now: 4279.
-Memory consumption went from 136.8 MB to 136.7 MB.
-Total: 3.198000 ms (FindLiveObjects: 0.257400 ms CreateObjectMapping: 0.174600 ms MarkObjects: 2.674400 ms  DeleteObjects: 0.091000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005693 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\UntitledWeebDungeonCrawlerGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\UntitledWeebDungeonCrawlerGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.790 seconds
-Domain Reload Profiling:
-	ReloadAssembly (791ms)
-		BeginReloadAssembly (109ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (604ms)
-			LoadAssemblies (66ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (191ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
+			RebuildScriptCaches (32ms)
 			SetupLoadedEditorAssemblies (272ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (170ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (169ms)
 				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.20 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3734 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (83.7 KB). Loaded Objects now: 4282.
-Memory consumption went from 136.8 MB to 136.7 MB.
-Total: 3.553200 ms (FindLiveObjects: 0.269300 ms CreateObjectMapping: 0.144300 ms MarkObjects: 3.051300 ms  DeleteObjects: 0.087700 ms)
+Unloading 20 unused Assets / (61.4 KB). Loaded Objects now: 4248.
+Memory consumption went from 132.0 MB to 131.9 MB.
+Total: 2.947800 ms (FindLiveObjects: 0.256200 ms CreateObjectMapping: 0.178700 ms MarkObjects: 2.435300 ms  DeleteObjects: 0.076900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -490,60 +592,98 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006150 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\UntitledWeebDungeonCrawlerGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Lucas\Documents\GitHub\UntitledWeebDungeonCrawlerGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.779 seconds
-Domain Reload Profiling:
-	ReloadAssembly (780ms)
-		BeginReloadAssembly (107ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (600ms)
-			LoadAssemblies (73ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (183ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (280ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (178ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3734 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (68.8 KB). Loaded Objects now: 4285.
-Memory consumption went from 136.8 MB to 136.7 MB.
-Total: 2.866800 ms (FindLiveObjects: 0.258600 ms CreateObjectMapping: 0.149400 ms MarkObjects: 2.383100 ms  DeleteObjects: 0.075000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 133.964427 seconds.
+  path: Assets/My Assets/UntitledWeebDungeon/Prefabs/DungeonRoom.prefab
+  artifactKey: Guid(d21100922eccfb24e802c64a62963a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/UntitledWeebDungeon/Prefabs/DungeonRoom.prefab using Guid(d21100922eccfb24e802c64a62963a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '576a83e8fafa69bc2a2f6164c20723fa') in 0.079280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.193403 seconds.
+  path: Assets/My Assets/Other
+  artifactKey: Guid(68b70d875cdcc794aba87a4e43f1b4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Other using Guid(68b70d875cdcc794aba87a4e43f1b4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8669cd63d76c5caa5088ffbaa2de0eab') in 0.007191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 190.519027 seconds.
+  path: Assets/My Assets/Other/JellyShader 1.shader
+  artifactKey: Guid(8836b6eb96e409c419ffa9d601c015ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Other/JellyShader 1.shader using Guid(8836b6eb96e409c419ffa9d601c015ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c535baf51e124560f83665bf9e45d22') in 0.009710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.689915 seconds.
+  path: Assets/My Assets/Other/jelly.jpg
+  artifactKey: Guid(60410e14665d09143a1b54769bd10e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Other/jelly.jpg using Guid(60410e14665d09143a1b54769bd10e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7a46181c154c33c8ce67b75cc30bc0') in 0.048980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.811454 seconds.
+  path: Assets/My Assets/Other/orangejello.jpg
+  artifactKey: Guid(5c0f6d31be412f34a81d0c333608a849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Other/orangejello.jpg using Guid(5c0f6d31be412f34a81d0c333608a849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed79b2c97d6232b262819e6d0f60fd7') in 0.011926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 97.145783 seconds.
+  path: Assets/My Assets/Other/Shader Scripts
+  artifactKey: Guid(13e8767689a87dc48a4ab19b75a35b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Other/Shader Scripts using Guid(13e8767689a87dc48a4ab19b75a35b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '280a2d65f2921a3473943f87d9ca685c') in 0.007165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.505890 seconds.
+  path: Assets/My Assets/Other/Shader Scripts/LightMat.mat
+  artifactKey: Guid(7a02ddf6797aa8a40bcf9af3a0ad7918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Other/Shader Scripts/LightMat.mat using Guid(7a02ddf6797aa8a40bcf9af3a0ad7918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4e3201995bb3cf3491b3d5398960dc') in 0.025694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.189756 seconds.
+  path: Assets/My Assets/Other/Shader Scripts/CausticsShader.shader
+  artifactKey: Guid(62775417cba3a774f901128f6a1145b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Other/Shader Scripts/CausticsShader.shader using Guid(62775417cba3a774f901128f6a1145b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df3230235e440b9f766d1405571c43f') in 0.008609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.474407 seconds.
+  path: Assets/My Assets/Other/Shader Scripts/Caustics
+  artifactKey: Guid(42a251a98c277644b9f603e3f063cebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Other/Shader Scripts/Caustics using Guid(42a251a98c277644b9f603e3f063cebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0fc474b60d987a7178b5223a4caf774') in 0.007171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.054654 seconds.
+  path: Assets/My Assets/Other/Shader Scripts/Caustics/caustics_atlas.png
+  artifactKey: Guid(2c615d5635f8cd54a901a4c604ce1047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/Other/Shader Scripts/Caustics/caustics_atlas.png using Guid(2c615d5635f8cd54a901a4c604ce1047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624feb258ac78ea97ea7a8438c9eeca0') in 0.015807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 91.277570 seconds.
+  path: Assets/My Assets/UntitledWeebDungeon/Scripts/Shader Stuff
+  artifactKey: Guid(edc4c1c163926fe4ba3e23845beef841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/UntitledWeebDungeon/Scripts/Shader Stuff using Guid(edc4c1c163926fe4ba3e23845beef841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3482fa4e6e84543323d8537dd66f7e') in 0.007274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 136.279609 seconds.
+  path: Assets/My Assets/UntitledWeebDungeon/Scripts/Shader Stuff/ThisShaderBroken.raytrace
+  artifactKey: Guid(ce6aa702ca7ed764dafbe9a1bab01ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/UntitledWeebDungeon/Scripts/Shader Stuff/ThisShaderBroken.raytrace using Guid(ce6aa702ca7ed764dafbe9a1bab01ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402f1743af19a11ff19de746b2971fb2') in 0.009093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 142.261176 seconds.
+  path: Assets/My Assets/UntitledWeebDungeon/Scripts/Shader Stuff/ThicccFoggyShader.shader
+  artifactKey: Guid(cac1ee56f4fc1b14fa7ad9ce78b2751c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/UntitledWeebDungeon/Scripts/Shader Stuff/ThicccFoggyShader.shader using Guid(cac1ee56f4fc1b14fa7ad9ce78b2751c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0abe84d1e6ea39d0c678231a668d4227') in 0.008129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 127.670475 seconds.
+  path: Assets/My Assets/UntitledWeebDungeon/Scripts/Shader Stuff/idekwhatthisdoes.shader
+  artifactKey: Guid(37abd2596f9184a44b41f8c889749e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/UntitledWeebDungeon/Scripts/Shader Stuff/idekwhatthisdoes.shader using Guid(37abd2596f9184a44b41f8c889749e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed33c3a6403b6c372d73d5e10220f27') in 0.008492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 65.409982 seconds.
+  path: Assets/My Assets/UntitledWeebDungeon/Scripts/Shader Stuff/AnimeCameraEffect.shader
+  artifactKey: Guid(b0683ca4cb866af4b95c2937b271c577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/UntitledWeebDungeon/Scripts/Shader Stuff/AnimeCameraEffect.shader using Guid(b0683ca4cb866af4b95c2937b271c577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceab9d7623ca87d6e8c49c4aa4871231') in 0.007503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 299.092468 seconds.
+  path: Assets/My Assets/UntitledWeebDungeon/Scripts/Shader Stuff/CoolWireFrameRender.shader
+  artifactKey: Guid(93dd349c904beea4483c5052c706e1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Assets/UntitledWeebDungeon/Scripts/Shader Stuff/CoolWireFrameRender.shader using Guid(93dd349c904beea4483c5052c706e1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220d14622c7d2ea3e41a4e9fbfbb9d49') in 0.008655 seconds 

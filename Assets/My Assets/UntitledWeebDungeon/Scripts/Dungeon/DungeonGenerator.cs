@@ -203,7 +203,6 @@ public class DungeonGenerator : MonoBehaviour
         {
             neighbors.Add((cell -1));
         }
-
         return neighbors;
     }
 }

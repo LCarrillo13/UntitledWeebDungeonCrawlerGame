@@ -33,6 +33,10 @@ public class PlayerController : MonoBehaviour
 	private void Update()
 	{
 		Move();
+		if (Input.GetKey(KeyCode.Space))
+		{
+			Shoot();
+		}
 	}
 	
 	
@@ -117,5 +121,32 @@ public class PlayerController : MonoBehaviour
 	{
 		return Mathf.Clamp(-Input.GetAxis("Mouse Y"), -1, 1);
 	}
+#endregion
+
+#region Weapon
+
+
+
+// shoots at mouse position, 
+public void Shoot()
+{
+	Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+	RaycastHit hit;
+	if(Physics.Raycast(ray, out hit))
+	{
+		Debug.Log(hit.point);
+	}
+}
+
+public void PickUp()
+{
+	
+}
+
+public void Reload()
+{
+	
+}
+
 #endregion
 }
