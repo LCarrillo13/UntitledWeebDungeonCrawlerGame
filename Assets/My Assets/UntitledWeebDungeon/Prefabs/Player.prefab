@@ -74,6 +74,11 @@ MonoBehaviour:
   tiltSpeed: 5
   maxTiltAngle: 45
   playerCamera: {fileID: 4469510516955884498}
+  playerHealth: 100
+  healthText: {fileID: 0}
+  maxHealth: 100
+  healthRegen: 1
+  healthRegenTimer: 0
   onScreenUpValue: 0
   onScreenDownValue: 0
   onScreenLeftValue: 0

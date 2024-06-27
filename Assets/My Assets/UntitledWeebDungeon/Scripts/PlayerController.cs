@@ -1,26 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(CharacterController))]
 public class PlayerController : MonoBehaviour
 {
-    	//Movement
+    	//Player Movement Vars
 	private CharacterController characterController;
-	public float speed = 5f;
 	public float walkSpeed = 5f;
 	public float runSpeed = 10f;
 	public float strafeSpeed = 5f;
 	public float rotationalSpeed = 5f;
-	//Camera stuff
+	//Player Camera stuff
 	public float cameraRotation;
 	public float tiltSpeed = 5f;
 	public float maxTiltAngle = 45f;
-	// Raycast stuff
+	// Raycasting stuff
 	public Transform playerCamera;
-
-	
+	// Health stuff
+	//TODO add health
+	//public float playerHealth = 100f;
 #region UnityEvents
 
 	private void Awake()
@@ -41,7 +42,6 @@ public class PlayerController : MonoBehaviour
 	
 	
 #endregion
-
  #region Movement
  public void Move()
 	{
@@ -109,7 +109,6 @@ public class PlayerController : MonoBehaviour
 	}
 	
 #endregion
-
 #region Camera Stuff
 
 	float RotationY()
@@ -122,13 +121,8 @@ public class PlayerController : MonoBehaviour
 		return Mathf.Clamp(-Input.GetAxis("Mouse Y"), -1, 1);
 	}
 #endregion
-
-#region Weapon
-
-
-
-// shoots at mouse position, 
-public void Shoot()
+#region Weapon Use
+ void Shoot()
 {
 	Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 	RaycastHit hit;
@@ -149,4 +143,21 @@ public void Reload()
 }
 
 #endregion
+
+#region Health
+
+void HealthDown()
+{
+	
+}
+
+void HealthUp()
+{
+	
+}
+
+
+#endregion
+
+
 }
